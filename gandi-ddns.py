@@ -39,7 +39,7 @@ def get_zone_id(config, section):
                   gandi.net name servers.')
             sys.exit(1)
 
-            zone_id = current_zone_id
+        zone_id = current_zone_id
 
     return zone_id
 
